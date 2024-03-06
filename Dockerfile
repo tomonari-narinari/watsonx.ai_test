@@ -18,8 +18,8 @@ WORKDIR /app
 EXPOSE 8501
 
 # Install requirements
-COPY requirements.txt .
-RUN pip install -r requirements.txt
+# COPY requirements.txt .
+# RUN pip install -r requirements.txt
 #RUN python -m pip install -r requirements.txt
 
 # Copy necessary files
